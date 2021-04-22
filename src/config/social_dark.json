@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "tooltip":"Amazon",
+        "route":"https://www.amazon.es/Arpa-Celta-Victor-Santal/dp/B078X57XJH",
+        "component":"AmazonDarkIcon",
+        "active": false
+    },
+    {
+        "id":2,
+        "tooltip":"Amazon",
+        "route":"https://www.amazon.es/Arpa-Celta-Victor-Santal/dp/B078X57XJH",
+        "component":"AmazonWhiteIcon",
+        "active": true
+    },
+    {
+        "id":3,
+        "tooltip":"Facebook",
+        "route":"https://www.facebook.com/arpaceltavictorsantal",
+        "component":"FacebookDarkIcon",
+        "active": true
+    },
+    {
+        "id":4,
+        "tooltip":"Instagram",
+        "route":"https://www.instagram.com/victorsantal",
+        "component":"InstagramDarkIcon",
+        "active": true
+    },
+    {
+        "id":5,
+        "tooltip":"Twitter",
+        "route":"https://www.twitter.com/victorsantal",
+        "component":"TwitterDarkIcon",
+        "active": false
+    },
+    {
+        "id":6,
+        "tooltip":"Twitter",
+        "route":"https://www.twitter.com/victorsantal",
+        "component":"TwitterWhiteIcon",
+        "active": true
+    },
+    {
+        "id":7,
+        "tooltip":"Youtube",
+        "route":"https://www.youtube.com/victorsantal",
+        "component":"YoutubeWhiteIcon",
+        "active": true
+    },
+    {
+        "id":8,
+        "tooltip":"Spotify",
+        "route":"https://open.spotify.com/artist/12v4nCY4X0wiVKi6Uxn0jN",
+        "component":"SpotifyDarkIcon",
+        "active": false
+    },
+    {
+        "id":9,
+        "tooltip":"Spotify",
+        "route":"https://open.spotify.com/artist/12v4nCY4X0wiVKi6Uxn0jN",
+        "component":"SpotifyWhiteIcon",
+        "active": true
+    },
+    {
+        "id":10,
+        "tooltip":"Itunes",
+        "route":"https://music.apple.com/mx/artist/victor-santal/1333068964",
+        "component":"ItunesDarkIcon",
+        "active": true
+    }
+]

@@ -1,0 +1,25 @@
+.home {
+    margin-top: 20px;
+    float: left;
+    width: 70%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #000;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .home {
+        width: 100%;
+        transition: all 1s ease-in-out;
+    }
+
+    .home > h1 {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "product": {
+            "price": 10.0,
+            "name": "CD Victor Santal",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "id_image_product": 1
+        },
+        "route": "/tienda/cd_victor_santal"
+    },
+    {
+        "id": 2,
+        "product": {
+            "price": 2000.0,
+            "name": "Arpa Celta",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "id_image_product": 2
+        },
+        "route": "/tienda/cd_victor_santal"
+    }
+]

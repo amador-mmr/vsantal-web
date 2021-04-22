@@ -1,0 +1,40 @@
+.menu li {
+    list-style-type: none;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.menu li:hover {
+    transform: translate(3px, 0);
+    -webkit-transform: translate(3px, 0);
+    -moz-transform: translate(3px, 0);
+    -o-transform: translate(3px, 0);
+    transition:  all 1s ease;
+}
+
+.menu a, .menu a:focus {
+    text-decoration: none;
+    outline: none;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.menu a {
+    color: #e3e4e5;
+}
+
+.menu a:focus {
+    color: #eee;
+}
+
+
+@media (max-width:920px) {
+    .menu > ul > li {
+        padding-right: 20px;
+        transition: all 1s ease-in-out;
+    }
+}

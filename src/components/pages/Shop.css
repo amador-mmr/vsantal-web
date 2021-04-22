@@ -1,0 +1,47 @@
+.shop {
+    width: 70%;
+    padding-top: 20px;
+}
+
+.shop > h1 {
+    color: #fff;
+    font-size: 12vw;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #000;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.products {
+    position: fixed;
+    /* overflow-y: scroll; */
+}
+
+
+@media (min-width: 767px) {
+
+    .shop > h1 {
+        font-size: 65px;
+    }
+    
+}
+
+@media (min-width: 360px) and (max-width:767px) {
+
+    .shop > h1 {
+        font-size: 10vw;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    
+    .shop {
+        width: 100%;
+    }
+    .shop > h1 {
+        padding-top: 60px;
+    }
+    
+}

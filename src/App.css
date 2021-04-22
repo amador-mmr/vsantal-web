@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Cardinal';
+  src: local('Cardinal'), url(./fonts/cardinal/Cardinal.ttf) format('truetype');
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Cardinal', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+}
+
+.amanecer:after, 
+.universo:after {
+  content:"";
+  position:fixed; /* stretch a fixed position to the whole screen */
+  top:0;
+  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  left:0;
+  right:0;
+  z-index:-1; /* needed to keep in the background */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.amanecer:after {
+  background: url('./images/background/amanecer.jpg') no-repeat center center;
+  -webkit-background: url('./images/background/amanecer.jpg') no-repeat center center;
+  -moz-background: url('./images/background/amanecer.jpg') no-repeat center center;
+  -o-background: url('./images/background/amanecer.jpg') no-repeat center center;
+}
+
+.universo:after {
+  background: url('./images/background/universo.jpg') center center;
+  -webkit-background: url('./images/background/universo.jpg') center center;
+  -moz-background: url('./images/background/universo.jpg') center center;
+  -o-background: url('./images/background/universo.jpg') center center;
+}
+
+
+.amanecer {
+  background: url('./images/background/amanecer.jpg') no-repeat center center fixed !important;
+  -webkit-background: url('./images/background/amanecer.jpg') no-repeat center center fixed !important;
+  -moz-background: url('./images/background/amanecer.jpg') no-repeat center center fixed !important;
+  -o-background: url('./images/background/amanecer.jpg') no-repeat center center fixed !important;
+}
+
+.universo {
+  background: url('./images/background/universo.jpg') no-repeat center center fixed !important;
+  -webkit-background: url('./images/background/universo.jpg') no-repeat center center fixed !important;
+  -moz-background: url('./images/background/universo.jpg') no-repeat center center fixed !important;
+  -o-background: url('./images/background/universo.jpg') no-repeat center center fixed !important;
+}
+
+
+
+/* Scroll */
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(219, 19, 19);
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(221, 11, 11, 0.3);
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(30, 182, 80);
+  outline: 1px solid rgb(25, 116, 207);
+}
+
+.galery {
+  scrollbar-color: #23aaaa;
+}
+
+/* body {
+  scrollbar-color: #632320;
+  scrollbar-width: 10px;
+} */
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover
+html::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* Cambiamos el fondo cuando esté en active 
+html::-webkit-scrollbar-thumb:active {
+  background-color: #eeeeee;
+} */

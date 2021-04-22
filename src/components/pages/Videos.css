@@ -1,0 +1,32 @@
+.videos {
+    width: 70%;
+    padding-top: 20px;
+}
+
+
+@media (min-width: 767px) {
+
+    .videos > h1 {
+        font-size: 65px;
+    }
+    
+}
+
+@media (min-width: 360px) and (max-width:767px) {
+
+    .videos > h1 {
+        font-size: 10vw;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    
+    .videos {
+        width: 100%;
+    }
+    .videos > h1 {
+        padding-top: 60px;
+    }
+    
+}

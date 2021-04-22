@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "tooltip":"Facebook",
+        "route":"https://www.facebook.com/arpaceltavictorsantal",
+        "component":"FacebookIcon"
+    },
+    {
+        "id":2,
+        "tooltip":"Youtube",
+        "route":"https://www.youtube.com/victorsantal",
+        "component":"YoutubeIcon"
+    },
+    {
+        "id":3,
+        "tooltip":"Instagram",
+        "route":"https://www.instagram.com/victorsantal",
+        "component":"IntagramIcon"
+    },
+    {
+        "id":4,
+        "tooltip":"Twitter",
+        "route":"https://www.twitter.com/victorsantal",
+        "component":"TwitterIcon"
+    },
+    {
+        "id":5,
+        "tooltip":"Spotify",
+        "route":"https://open.spotify.com/artist/12v4nCY4X0wiVKi6Uxn0jN",
+        "component":"SpotifyIcon"
+    },
+    {
+        "id":6,
+        "tooltip":"Itunes",
+        "route":"https://music.apple.com/mx/artist/victor-santal/1333068964",
+        "component":"ItunesIcon"
+    },
+    {
+        "id":7,
+        "tooltip":"Google Play",
+        "route":"https://play.google.com/store/music/album/Victor_Santal_Arpa_Celta?id=Bbjjr77dzf7teepgfycmtvqwquu",
+        "component":"GooglePlayIcon"
+    }  
+]

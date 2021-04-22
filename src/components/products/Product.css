@@ -1,0 +1,84 @@
+.product {
+    /* width: 100%;
+    min-width: 350px;
+    height: 100%;
+    display: table; */
+    background-color: rgba(213, 218, 223, 0.308);
+    border-radius: 25px;
+}
+
+.product-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.product-image {
+    max-width: 250px;
+}
+/* .product-image {
+    width: 50%;
+    height: 100%;
+    float: left;
+} */
+
+/* .product-image img {
+    width: 250px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 10px;
+} */
+
+.product-info {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.product-info > h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.product-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+.product-buy > p {
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.product-delivery {
+    width: 100%;
+    display: table;
+    padding-left: 10px;
+}
+
+.product-delivery > select {
+    width: 50%;
+    font-size: 16px;
+    font-family: 'Cardinal';
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgba(221, 221, 221, 0.507);
+    float: left;
+}
+
+.product-delivery > p {
+    float: left;
+    padding-left: 3px;
+}

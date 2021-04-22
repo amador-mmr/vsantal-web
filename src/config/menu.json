@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "text":"Inicio",
+        "route":"/",
+        "icon": "home"
+    },
+    {
+        "id":2,
+        "text":"Música",
+        "route":"/musica",
+        "icon": "music"
+    },
+    {
+        "id":3,
+        "text":"Galería",
+        "route":"/galeria",
+        "icon": "galery"
+    },
+    {
+        "id":4,
+        "text":"Tienda",
+        "route":"/tienda",
+        "icon": "shop"
+    },
+    {
+        "id":5,
+        "text":"Contacto",
+        "route":"/contacto",
+        "icon": "contact"
+    }
+]

@@ -1,0 +1,19 @@
+
+.social-btn-icon {
+    list-style: none;
+    float: right;
+}
+
+
+.social-btn-icon > a > img {
+    width: 40px;
+}
+
+.reduce-icon > a > img {
+    width: 36px !important;
+}
+
+.tooltip-social-btn {
+    font-size: medium;
+    font-weight: 500;
+}

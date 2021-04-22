@@ -1,0 +1,52 @@
+.btn-buy-paypal {
+    padding-top: 10px;
+}
+
+/* .btn-buy-paypal > a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 3px;
+    float: right;
+    font-size: 30px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    color: #000000;
+} */
+
+.btn-buy-paypal > a {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+.btn-buy-paypal > a > p {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.btn-buy-paypal > a > img {
+    /* float: right; */
+    width: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.btn-buy-paypal > a:hover, .btn-buy-paypal > a:focus {
+    animation: all 1s;
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+    0% { 
+        box-shadow: 0 0 0 0 var(--hover); 
+    }
+}
+
